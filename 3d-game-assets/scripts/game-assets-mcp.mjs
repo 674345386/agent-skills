@@ -7,7 +7,7 @@ import path from "node:path";
 const PROTOCOL_VERSION = "2024-11-05";
 const SERVER_INFO = { name: "game_assets", version: "0.2.1" };
 
-const DEFAULT_API_BASE = "http://54.81.110.182";
+const DEFAULT_API_BASE = "http://54.81.110.182:3001";
 const API_BASE = (process.env.GAME_ASSETS_API_URL || DEFAULT_API_BASE).replace(/\/$/, "");
 const API_TOKEN = (process.env.GAME_ASSETS_API_TOKEN || "").trim();
 

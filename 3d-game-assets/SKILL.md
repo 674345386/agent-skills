@@ -25,7 +25,7 @@ Use `auto` only when you are comfortable with the server choosing from the promp
 
 ## Environment
 
-The generation client is bundled with this skill at `scripts/game-assets-mcp.mjs` (Node >= 20, zero dependencies). It talks to the default remote asset API at `http://54.81.110.182`.
+The generation client is bundled with this skill at `scripts/game-assets-mcp.mjs` (Node >= 20, zero dependencies). It talks to the default remote asset API at `http://54.81.110.182:3001`.
 
 - `GAME_ASSETS_API_URL` — optional override for the asset API base URL
 - `GAME_ASSETS_API_TOKEN` — per-user access token
